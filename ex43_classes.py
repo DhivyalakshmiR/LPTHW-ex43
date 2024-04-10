@@ -1,3 +1,24 @@
+#This process is a guide for building things in Python using object-oriented programming #(OOP). It's a flexible set of steps, not strict rules, meant to help with various #programming problems. The steps are:
+#   1.	Write a problem.
+#   2.	Draw a flow chart of the problem.
+#   3.	List all variables, data, other objects and add comments.
+#   4.	Build the classes and object map for the problem.
+#   5.	Rewrite and refine.
+
+# Create a class hierarchy and object map for the concepts:
+# *Map
+	#--next_scene
+	#--opening_scene
+# *Engine
+	#--play
+# *Scene
+	#--enter
+	#*Death
+	#*Central Corridor
+	#*Laser Weapon Armory
+	#*The Bridge
+	#*Escape Pod
+
 class Scene(object):
 
 	def enter(self):

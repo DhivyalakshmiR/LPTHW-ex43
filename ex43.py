@@ -1,3 +1,12 @@
+# The provided code represents a text-based game called “Gothons from Planet Percal #25”. It follows an object-oriented approach, with various classes representing different scenes and components of the game. Key components include:
+	# Imports: Necessary modules are imported.
+	# Base classes: ‘Scene’ and ‘Engine’ are defined for scenes and the game engine respectively.
+	# Scenes: Several scenes are defined as ‘Death’, ‘Central Corridor’, Laser Weapon Armory’, ‘The Bridge’, ‘Escape Pod’, and ‘Finished’. Each scene has its own unique description and options for player interaction.
+	# Map: The ‘Map’ class handles the navigation between scenes. It maintains a dictionary of scenes and their corresponding names, providing methods for accessing the next scene and the opening scene.
+	# Game Execution: The game is initialized by creating a ‘Map’ object, which is then passed to an ‘Engine’ object to start the game. The ‘play()’ method of the ‘Engine’ class runs the game loop until the game is finished.
+
+# Overall, the code demonstrates a structured approach to building a text-based game, utilizing classes and methods to organize the game logic and flow.
+
 from sys import exit
 from random import randint
 from textwrap import dedent
